@@ -1,0 +1,129 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+@font-face {
+	font-family: FontsFree-Net-EquinoxRegular;
+	src: url(../font/FontsFree-Net-EquinoxRegular.ttf);
+}
+
+body{
+	margin:0px;
+	color:white;
+	font-family: FontsFree-Net-EquinoxRegular;
+	font-size: 18px;
+}
+img{
+	max-width:100%;
+}
+h2{
+	font-size: 27px;
+	display: inline-block;
+    border-bottom: 4px solid white;
+	margin-top:9px;
+	    position: relative;
+    z-index: 9;
+}
+.container{
+	width:850px;
+	max-width:100%;
+	margin:0px auto;
+	padding:0px 20px;
+}
+.single-box{
+	background-color:#201f1f;
+	margin-bottom:4px;
+	text-align:center;
+	overflow:hidden;
+	padding: 12px 10px;
+	border-radius:55px;
+}
+.three-col{
+	display:grid;	
+	grid-template-columns: repeat(3, 1fr);
+	gap:22px
+}
+.mb0{
+	margin-bottom:0px;
+}
+h3{
+	font-size: 21px;
+}
+ul{
+	padding:0px;
+	margin:0px;
+}
+.dflex{
+	    display: flex;
+    justify-content: space-around;
+    gap: 17px;
+}
+ol{
+	text-align:left;
+}
+ol li{
+	margin-bottom:22px
+}
+.addon{
+	display:grid;	
+	grid-template-columns: repeat(2, 1fr);
+	gap:22px;
+	align-items:Center;
+}
+.addon ul{
+	list-style:none;
+}
+.addon ul li{
+	display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 18px;
+	justify-content: center;
+}
+.addon ul li span{
+	width: 6px;
+    height: 6px;
+    background-color: white;
+    display: inline-flex;
+    border-radius: 13px;
+    justify-content: center;
+}
+ul li span{
+	width: 6px;
+    height: 6px;
+    background-color: white;
+    display: inline-flex;
+    border-radius: 13px;
+    justify-content: center;
+}
+.buildinggif{
+	width: 90%;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+.white-btn{
+	display: block;
+    background-color: white;
+    width: 94%;
+    margin: 0px auto;
+    border-radius: 55px;
+    color: black;
+    padding: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 16px;
+	text-shadow: 2px 2px #dcdcdc;
+}
+.timg{
+	border-radius: 20px;
+    margin-bottom: 28px
+}
+.addon img{
+	width: 100%;
+	border-radius: 20px;
+}
+.mtsm{
+	margin-top:10px;
+}
+.list-top li{
+	margin-top:12px
+}
